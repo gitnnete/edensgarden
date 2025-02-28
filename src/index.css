@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+html, body {
+  @apply bg-white overflow-x-hidden;
+}
+
+
+
+
+
+
+
+
+
+
+/*ANIMATE SERVICES PNG*/
+@keyframes rock {
+  0%, 100% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+}
+
+.animate-rock {
+  animation: rock 3s infinite ease-in-out;
+}
