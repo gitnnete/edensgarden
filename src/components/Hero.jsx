@@ -2,9 +2,9 @@ import React, { useState, useEffect, useRef } from "react";
 import { NavLink } from 'react-router-dom';
 
 // Replace these with your actual video import paths.
-import video1 from "../assets/video1.mp4";
-import video2 from "../assets/video2.mp4";
-import video3 from "../assets/video3.mp4";
+import video1 from "../assets/video1.webm";
+import video2 from "../assets/video2.webm";
+import video3 from "../assets/video3.webm";
 
 const heroData = [
   {

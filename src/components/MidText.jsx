@@ -9,11 +9,15 @@ const MidText = () => {
     >
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
-      <div data-aos="fade-down" className="container mx-auto px-4 py-4 text-center relative h-full flex flex-col justify-center items-center">
-        <blockquote className="text-2xl font-medium text-white w-3/4 mx-auto">
-          "A beautiful garden is a sanctuary that nurtures life, inspires creativity, and transforms the ordinary into extraordinary."
+      <div
+        data-aos="fade-down"
+        className="relative flex flex-col justify-center items-center h-full px-4"
+      >
+        <blockquote className="text-xl md:text-2xl font-medium text-white w-11/12 max-w-lg mx-auto">
+          "A beautiful garden is a sanctuary that nurtures life, inspires
+          creativity, and transforms the ordinary into extraordinary."
         </blockquote>
-        <p className="mt-4 text-lg text-white">- John Doe</p>
+        <p className="mt-4 text-base md:text-lg text-white">- John Doe</p>
       </div>
     </section>
   );

@@ -6,7 +6,7 @@ import homeImg4 from '../assets/workerPic2.jpg';
 
 const HomeImages = () => {
   return (
-    <div className="container mx-auto px-4 py-10 space-y-8 mt-4">
+    <div className="container mx-auto px-4 py-10 space-y-8 mt-8">
       {/* First Row */}
       <div className="flex flex-col md:flex-row justify-center items-center md:space-x-8">
         {/* Left Image */}
