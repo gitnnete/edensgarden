@@ -16,7 +16,7 @@ const FooterAbove = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-8 w-full">
           {/* 1st Div: Logo */}
           <div className="text-2xl md:text-4xl font-bold text-green-600 w-full md:w-auto text-center md:text-left mb-6">
-            <span className="text-black">Edens</span> Garden
+            <span className="text-black">EDENS</span>GARDEN
           </div>
 
           {/* 2nd Div: Contact Info */}
