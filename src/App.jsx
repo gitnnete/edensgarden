@@ -1,6 +1,6 @@
-import { React, useEffect} from 'react';
+import { useEffect } from 'react';
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom'; // Just import Routes and Route, no HashRouter
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -13,7 +13,6 @@ import Contact from './pages/Contact';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
-
   useEffect(() => {
     AOS.init({
       duration: 1000, // Animation duration in ms
